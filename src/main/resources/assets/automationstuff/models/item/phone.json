@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"base": {
+		"parent": "automationstuff:item/phone3d"
+	},
+	"perspectives": {
+		"gui": {
+			"parent": "automationstuff:item/phone2d"
+		},
+		"ground": {
+			"parent": "automationstuff:item/phone3d"
+		},
+		"fixed": {
+			"parent": "automationstuff:item/phone2d"
+		}
+	}
+}
