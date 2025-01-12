@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "automationstuff:item/phone3d",
+		"particle": "automationstuff:item/phone3d"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 2],
+			"to": [11, 1, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 7.5]},
+			"faces": {
+				"north": {"uv": [6, 0, 9, 0.5], "texture": "#0"},
+				"east": {"uv": [5.5, 5.5, 11, 6], "texture": "#0"},
+				"south": {"uv": [0, 6, 3, 6.5], "texture": "#0"},
+				"west": {"uv": [0, 5.5, 5.5, 6], "texture": "#0"},
+				"up": {"uv": [3, 5.5, 0, 0], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [6, 0, 3, 5.5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [103.75, 0, 0],
+			"translation": [0, 2, 6.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [103.75, 0, 0],
+			"translation": [0, 2, 6.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [73.92, -13.51, 28.54],
+			"translation": [0, 6.25, 2.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [73.92, -13.51, 28.54],
+			"translation": [0, 6.25, 2.75]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		}
+	}
+}

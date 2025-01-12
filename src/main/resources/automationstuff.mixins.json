@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.brrrkuda.automationstuff.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "PostChainMixin"
+  ]
+}

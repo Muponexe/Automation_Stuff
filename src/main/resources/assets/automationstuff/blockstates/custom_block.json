@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "automationstuff:block/custom_block"
+    }
+  }
+}
